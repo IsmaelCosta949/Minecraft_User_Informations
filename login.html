@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta name="description" content="Experimentos" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UsePixel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="min-h-screen flex items-center justify-center background">
+      <div class="max-w-md w-full p-6 bg-white rounded-lg shadow-md">
+        <h1 class="text-2xl font-semibold mb-4">Faça Login</h1>
+        <form id="loginForm">
+          <input
+            id="email"
+            type="email"
+            placeholder="E-mail"
+            class="w-full mb-2 p-2 rounded border mt-6"
+          />
+          <input
+            id="password"
+            type="password"
+            placeholder="Senha"
+            class="w-full mb-4 p-2 rounded border mt-2"
+          />
+          <div class="flex justify-end">
+            <a
+              href="redefinir.html"
+              2
+              class="inline-block align-baseline text-sm text-black hover:text-blue-400"
+              >Esqueceu a senha ?</a
+            >
+          </div>
+          <button
+            id="loginButton"
+            type="submit"
+            class="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600 mt-6"
+          >
+            Entrar
+          </button>
+        </form>
+        <div class="mt-6 text-center">
+          <a
+            href="cadastro.html"
+            class="inline-block align-baseline font-light text-sm text-black hover:text-blue-400"
+          >
+            Criar uma conta
+          </a>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="Firebase/scriptLogin.js"></script>
+  </body>
+</html>

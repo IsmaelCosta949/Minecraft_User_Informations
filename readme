@@ -1,0 +1,43 @@
+# API - HYPIXEL
+
+A api do hypixel só funciona com uma KEY temporária.
+
+# O que o projeto faz
+
+O projeto mostra informações de usuarios que jogam ou já jogaram no Hypixel (um servidor de minecraft que só funciona em contas originais).
+
+Porém algumas contas em que nunca jogaram os seguintes jogos não aparecem:
+
+- SkyWars
+- BedWars
+- Duels
+- BuildBattle
+
+Também temos uma parte de login utilizando o firebase para fazer login, cadastro e redefinição de senha.
+
+# Como foi estilizado
+
+Foi utilizado no projeto o Tailwind uma bilbioteca de estilização por meio de classes pré-definidas.
+
+caso queira baixar: tailwindcss.com
+
+# Firebase
+
+Foi utilizado o firebase para fazer logins, cadastros e redefinir as senhas que forem esquecidas.
+
+Caso não tenha login e tente entrar, no console.log irá retornar um erro que o usuario não foi encontrado.
+
+No cadastro não possui restrições para concluir, e as senhas não aparecem para os administradores do firebase.
+
+Na tela de redefinir senha, após você inserir seu email ele automaticamente ira te mandar um email para redefinir no site do próprio firebase.
+
+# Erros que podem acontecer
+
+A api não aceita requisições muito rapidas então caso dê erro espere um tempo e tente novamente.
+
+# Usuarios para testar a api
+
+- Demon_Brasil354
+- EiMine
+- JassGhost
+- Authentic_Games

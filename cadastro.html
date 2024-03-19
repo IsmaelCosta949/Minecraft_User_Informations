@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta name="description" content="Experimentos" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UsePixel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="min-h-screen flex items-center justify-center background">
+      <div class="max-w-md w-full p-6 bg-white rounded-lg shadow-md">
+        <h1 class="text-2xl font-semibold mb-4">Cadastre-se</h1>
+        <form id="signupForm">
+          <input
+            id="signupEmail"
+            type="email"
+            placeholder="E-mail"
+            class="w-full mb-2 p-2 rounded border mt-6"
+          />
+          <input
+            id="signupPassword"
+            type="password"
+            placeholder="Senha"
+            class="w-full mb-2 p-2 rounded border mt-2"
+          />
+          <input
+            id="signupConfirmPassword"
+            type="password"
+            placeholder="Confirme a senha"
+            class="w-full mb-4 p-2 rounded border mt-2"
+          />
+          <button
+            id="signupButton"
+            type="submit"
+            class="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600 mt-6"
+          >
+            Cadastrar
+          </button>
+        </form>
+        <div class="mt-6 text-center">
+          <a
+            href="login.html"
+            class="inline-block align-baseline font-light text-sm text-black hover:text-blue-400"
+          >
+            Já tem uma conta? Faça login aqui.
+          </a>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="Firebase/scriptCadsatro.js"></script>
+  </body>
+</html>
