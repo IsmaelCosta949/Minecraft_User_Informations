@@ -15,6 +15,8 @@ Porém algumas contas em que nunca jogaram os seguintes jogos não aparecem:
 
 Também temos uma parte de login utilizando o firebase para fazer login, cadastro e redefinição de senha.
 
+Obs - *Para fazer a pesquisa tem que clicar na lupinha do input*
+
 # Como foi estilizado
 
 Foi utilizado no projeto o Tailwind uma bilbioteca de estilização por meio de classes pré-definidas.
